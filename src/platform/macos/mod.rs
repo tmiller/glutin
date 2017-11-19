@@ -21,7 +21,7 @@ use core_foundation::string::CFString;
 use core_foundation::bundle::{CFBundleGetBundleWithIdentifier, CFBundleGetFunctionPointerForName};
 use objc::runtime::{BOOL, NO};
 use winit;
-use winit::os::macos::WindowExt;
+use winit::os::macos::{EventsLoopExt, WindowExt};
 
 use std::str::FromStr;
 use std::ops::Deref;
