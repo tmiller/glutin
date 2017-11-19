@@ -44,3 +44,6 @@ dwmapi-sys = "0.1"
 osmesa-sys = "0.1.0"
 wayland-client = { version = "0.9.5", features = ["egl", "dlopen"] }
 x11-dl = "2.4"
+
+[patch.crates-io]
+winit = {path = "../winit"}
